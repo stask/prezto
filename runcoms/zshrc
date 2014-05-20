@@ -18,6 +18,9 @@ export PATH="$PATH:$HOME/.cabal/bin"
 # NPM
 export PATH="/usr/local/share/npm/bin:$PATH"
 
+# TeX
+export PATH="$PATH:/usr/texbin"
+
 # RVM
 export PATH="$HOME/.rvm/bin:$PATH"
 
