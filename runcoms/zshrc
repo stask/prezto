@@ -12,6 +12,9 @@ fi
 
 # Customize to your needs...
 
+# aliases
+alias hop="ssh -C -t hop /usr/bin/screen -xRR"
+
 # Haskell
 export PATH="$PATH:$HOME/.cabal/bin"
 
