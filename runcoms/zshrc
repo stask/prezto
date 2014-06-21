@@ -15,17 +15,3 @@ fi
 # aliases
 alias hop="ssh -C -t hop /usr/bin/screen -xRR"
 
-# Haskell
-export PATH="$PATH:$HOME/.cabal/bin"
-
-# NPM
-export PATH="/usr/local/share/npm/bin:$PATH"
-
-# TeX
-export PATH="$PATH:/usr/texbin"
-
-# RVM
-export PATH="$HOME/.rvm/bin:$PATH"
-
-# added by travis gem
-[ -f /Users/stask/.travis/travis.sh ] && source /Users/stask/.travis/travis.sh
