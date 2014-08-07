@@ -12,6 +12,9 @@ fi
 
 # Customize to your needs...
 
+# aws-cli completion
+source /usr/local/share/zsh/site-functions/_aws
+
 # aliases
 alias hop="ssh -C -t hop /usr/bin/screen -xRR"
 
