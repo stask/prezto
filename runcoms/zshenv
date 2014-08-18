@@ -10,8 +10,11 @@ export JAVA_HOME="$(/usr/libexec/java_home)"
 
 export LEIN_JVM_OPTS="-XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Djava.awt.headless=true"
 
+# go stuff
+export GOPATH="$HOME/projects/go"
+export PATH="$PATH:$GOPATH/bin:/usr/local/opt/go/libexec/bin"
+
 # Ensure that a non-login, non-interactive shell has a defined environment.
 if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
-
